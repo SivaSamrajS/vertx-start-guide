@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.shubham</groupId>
+	<groupId>com.sentienz</groupId>
 	<artifactId>vertx-intro</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>vertx-intro</name>
@@ -27,12 +27,12 @@
 		<dependency>
 			<groupId>io.vertx</groupId>
 			<artifactId>vertx-core</artifactId>
-			<version>3.6.2</version>
+			<version>3.9.2</version>
 		</dependency>
 		<dependency>
 			<groupId>io.vertx</groupId>
 			<artifactId>vertx-hazelcast</artifactId>
-			<version>3.6.2</version>
+			<version>3.9.2</version>
 		</dependency>
 
 		<dependency>
@@ -44,6 +44,18 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>RELEASE</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.14</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>
